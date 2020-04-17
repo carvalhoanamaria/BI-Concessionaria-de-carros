@@ -8,6 +8,7 @@
 </p>
 
 ## Análise das necessidades:
+  O objetivo da aplicação dos metodos de BI nesse projeto são  para obter os seguintes conhecimentos:
 * Desempenho do faturamento da corporação:
 1. Qual o valor de faturamento e número de veículos vendidos por ano
 (2015-2018) da corporação?
