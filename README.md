@@ -4,10 +4,6 @@
 <sub>*Meu primeiro projeto de Business Intelligence. (As informações aqui contidas são apenas ilustrativas para estudos.)*</sub>
 
 <p align="center">
-  <img src="img_con.png" >
-</p>
-
-<p align="center">
   <img src="Imagens-Telas-PowerBI/DesempenhoFaturamentoCorporacaoW.png" >
 </p>
 
