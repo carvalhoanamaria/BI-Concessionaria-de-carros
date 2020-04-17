@@ -8,15 +8,16 @@
 </p>
 
 ## Análise das necessidades:
-Desempenho do faturamento da corporação:
+* Desempenho do faturamento da corporação:
 1. Qual o valor de faturamento e número de veículos vendidos por ano
 (2015-2018) da corporação?
+
 2. O faturamento das corporações estão acima ou abaixo da média?
-Desempenho do faturamento por veículo:
+* Desempenho do faturamento por veículo:
 1. Quais modelos de veículos foram mais vendidos?
 2. Como se encontra o comportamento de venda de cada fabricante?
 
-Perfil e preferência dos clientes:
+* Perfil e preferência dos clientes:
 1. Qual perfil predominante de cliente na escolha do veículo em cada
 empresa?
 
