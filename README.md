@@ -11,6 +11,10 @@
   <img src="Imagens-Telas-PowerBI/DesempenhoFaturamentoCorporacaoW.png" >
 </p>
 
+<p align="center">
+  <img src="Imagens-Telas-PowerBI/DesempenhoFaturamentoCorporacaoM.png" >
+</p>
+
 ## Análise das necessidades:
   O objetivo da aplicação dos metodos de BI nesse projeto são  para obter os seguintes conhecimentos:
 * Desempenho do faturamento da corporação:
