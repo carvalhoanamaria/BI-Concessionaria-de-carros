@@ -4,12 +4,9 @@
 <sub>*Meu primeiro projeto de Business Intelligence. (As informações aqui contidas são apenas ilustrativas para estudos.)*</sub>
 
 <p align="center">
-  <img src="Imagens-Telas-PowerBI/DesempenhoFaturamentoCorporacaoW.png" >
+  <img src="img_todos.png" >
 </p>
 
-<p align="center">
-  <img src="Imagens-Telas-PowerBI/DesempenhoFaturamentoCorporacaoM.png" >
-</p>
 
 ## Análise das necessidades:
   O objetivo da aplicação dos metodos de BI nesse projeto são  para obter os seguintes conhecimentos:
