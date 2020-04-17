@@ -30,6 +30,8 @@ empresa?
 
 * SQL é uma linguagem de programação para modelos relacionais com a finalidade de manipulação, controle, transação e consultas de dados, desenvolvida pelo projeto System R nos laboratórios de IBM em San Jose.
 
+* Power BI: Power BI é uma ferramenta de Business Intelligence, disponibilizada pela Microsoft, com intuito de tratar,modelar, analisar e visualizar dados.
+
 ## Modelagens do Data Warehouse:
    Nessa fase, o objetivo é definir o escopo para a criação do modelo do data warehouse logico e físico. O modelo escolhido para a modelagem do data warehouse foi o esquema estrela, composta por dimensões e fato, no qual tem como principal vantagem a fácil visualização dos dados e redução do número de Joins.
 ### Tabela dimensão:
