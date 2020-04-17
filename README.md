@@ -7,6 +7,10 @@
   <img src="img_con.png" >
 </p>
 
+<p align="center">
+  <img src="Imagens-Telas-PowerBI/DesempenhoFaturamentoCorporacaoW.png" >
+</p>
+
 ## Análise das necessidades:
   O objetivo da aplicação dos metodos de BI nesse projeto são  para obter os seguintes conhecimentos:
 * Desempenho do faturamento da corporação:
@@ -50,7 +54,7 @@ estado da loja.
   <img src="Data-warehouse/Modelo Logico do data warehouse.jpg" width="550" height="500" >
 </p>
 #### Modelo Físico do data Warehouse
-Data-warehouseModelo/ Modelo Fisico Create do data warehouse.sql
+<sub>* Data-warehouseModelo/ Modelo Fisico Create do data warehouse.sql*</sub>
 
 ## Processo de ETL:
 Para a criação do ETL foi dividido o processo em pacotes, contendo em cada pacote uma tabela para um melhor entendimento. Assim, para
@@ -72,12 +76,10 @@ Services (SSAS).
 <sub>*BI-Concessionaria-de-carros/Analise_Multidimensional_Concessionaria/*</sub>
 
 ## Desenvolvimento dos Dashboards:
-Após ter passado pela obtenção de dados, tratamento, carregamento e
-modelagem a fim de tornar os dados limpos e coerentes, a última etapa do processo
-BI é a visualização dos dados que possam responder as questões levantadas nas
-necessidades do negócio.
+Após ter passado pela obtenção de dados, tratamento, carregamento a fim de tornar os dados limpos e coerentes, a última etapa do processo BI é a visualização dos dados que possam responder as questões levantadas nas necessidades do negócio.
 
 ## Resultados Obtidos:
+
 
 
 
