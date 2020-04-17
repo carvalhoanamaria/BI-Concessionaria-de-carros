@@ -46,8 +46,9 @@ estado da loja.
 * Fato venda: Fato onde é encontrada a chave primária código venda e as chaves primárias das dimensões, código da venda, código do cliente, código da loja, código da data, código do veículo. Para as quais podem se navegar e analisar as informações desejadas. Este fato consiste também em a medida.
 
 <p align="center">
-  <img src="Data-warehouse/Modelo Logico do data warehouse.jpg" width="320" height="205" >
+  <img src="Data-warehouse/Modelo Logico do data warehouse.jpg" width="500" height="300" >
 </p>
+<figcaption>Modelo Logico do data Warehouse</figcaption>
 
 ## Processo de ETL:
 
