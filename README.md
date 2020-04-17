@@ -74,7 +74,7 @@ Services (SSAS).
 <sub>*BI-Concessionaria-de-carros/Analise_Multidimensional_Concessionaria/*</sub>
 
 ## Desenvolvimento dos Dashboards:
-Após ter passado pela obtenção de dados, tratamento, carregamento a fim de tornar os dados limpos e coerentes, a última etapa do processo BI é a visualização dos dados que possam responder as questões levantadas nas necessidades do negócio.
+Após ter passado pela obtenção de dados, tratamento, carregamento a fim de tornar os dados limpos e coerentes, a última etapa do processo BI é o desenvolvimento do dashboard para a visualização dos dados que possam responder as questões levantadas nas necessidades do negócio.
 
 ## Resultados Obtidos:
 
