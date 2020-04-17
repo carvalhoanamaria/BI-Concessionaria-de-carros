@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="USUARIO-PC_SQLEXPRESS.ConcessionariaDW_"
+  DTS:DTSID="{55B0D306-F91C-48FE-BBD0-9729304D9106}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="Data Source=USUARIO-PC\SQLEXPRESS;Initial Catalog=ConcessionariaDW_;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

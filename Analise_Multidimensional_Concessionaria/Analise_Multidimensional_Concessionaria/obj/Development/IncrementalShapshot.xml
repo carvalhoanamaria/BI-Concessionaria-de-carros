@@ -1,0 +1,82 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>AnaliseMultidimensionalConcessionaria</Database>
+    <Server>USUARIO-PC\Analysis</Server>
+    <ConnectionString>DataSource=USUARIO-PC\Analysis;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>T/PHWkWSDac4ItzRVSPaHO+4VwY=23/11/2019 18:14:1023/11/2019 18:14:09</TimeStamp>
+        <ID>
+          <String>Concessionaria DW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>9QmAyG08NVcyKSP2z5lagdiO8KU=01/12/2019 17:46:5223/11/2019 18:15:20</TimeStamp>
+        <ID>
+          <String>Concessionaria DW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>bzBX50abxqnCGlvFNfk9RdsLxSo=23/11/2019 23:05:5623/11/2019 18:20:50</TimeStamp>
+        <ID>
+          <String>DIM LOJA</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>LEl17VD6cQfnPhkZiVBeBUh1SgQ=23/11/2019 22:17:5523/11/2019 18:20:50</TimeStamp>
+        <ID>
+          <String>DIM VEICULO</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>R8GoOUy282psff9GdYLXZBJPsTg=01/12/2019 17:40:4823/11/2019 18:20:50</TimeStamp>
+        <ID>
+          <String>DIM CLIENTE</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>NIzd9idA5UFCcRyGik7mYf9rOUk=23/11/2019 18:30:5423/11/2019 18:20:50</TimeStamp>
+        <ID>
+          <String>DIM TEMPO</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>uRbkJpb8s7r7TqFhZp4AOv8JHV4=01/12/2019 17:40:4823/11/2019 18:20:50NWIG4WBrRaYtPPN+n8lWR9GLOrE=23/11/2019 18:20:5123/11/2019 18:20:50</TimeStamp>
+        <ID>
+          <String>Concessionaria DW</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>I7D6wmzXyprVhUBZumvsaeKsHuI=23/11/2019 18:52:4323/11/2019 18:12:07</TimeStamp>
+      <ID>
+        <String>Analise_Multidimensional_Concessionaria</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2019-12-01T21:41:26.626667Z</LastDeployed>
+</DeploymentSnapshot>
