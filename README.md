@@ -1,15 +1,12 @@
 [![author](https://img.shields.io/badge/author-AnaMariaCarvalho-red.svg)](https://www.linkedin.com/in/carvalhoanamaria/) [![](https://img.shields.io/badge/License-GPLv3-blue.svg)](http://perso.crans.org/besson/LICENSE.html) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/carvalhoanamaria) [![contributions welcome](https://img.shields.io/badge/redeSocial-lindedin-brightgreen.svg?style=flat)](https://www.linkedin.com/in/carvalhoanamaria)
 
 # Utilizando Power BI, SSIS e SSAS para gerar insights em uma concessionária de veículos
-<sub>*Meu primeiro projeto de Business Intelligence. (As informações aqui contidas são apenas ilustrativas para estudos.)*</sub>
+<sub>*Meu primeiro projeto de Business Intelligence. Os dados aqui presente são apenas fictícios para estudo./*</sub>
 
 <p align="center">
-  <img src="Imagens-Telas-PowerBI/DesempenhoFaturamentoCorporacaoW.png" >
+  <img src="img_todos.png" >
 </p>
 
-<p align="center">
-  <img src="Imagens-Telas-PowerBI/DesempenhoFaturamentoCorporacaoM.png" >
-</p>
 
 ## Análise das necessidades:
   O objetivo da aplicação dos metodos de BI nesse projeto são  para obter os seguintes conhecimentos:
@@ -33,6 +30,8 @@ empresa?
 
 * SQL é uma linguagem de programação para modelos relacionais com a finalidade de manipulação, controle, transação e consultas de dados, desenvolvida pelo projeto System R nos laboratórios de IBM em San Jose.
 
+* Power BI: Power BI é uma ferramenta de Business Intelligence, disponibilizada pela Microsoft, com intuito de tratar,modelar, analisar e visualizar dados.
+
 ## Modelagens do Data Warehouse:
    Nessa fase, o objetivo é definir o escopo para a criação do modelo do data warehouse logico e físico. O modelo escolhido para a modelagem do data warehouse foi o esquema estrela, composta por dimensões e fato, no qual tem como principal vantagem a fácil visualização dos dados e redução do número de Joins.
 ### Tabela dimensão:
@@ -53,8 +52,9 @@ estado da loja.
 <p align="center">
   <img src="Data-warehouse/Modelo Logico do data warehouse.jpg" width="550" height="500" >
 </p>
+
 #### Modelo Físico do data Warehouse
-<sub>* Data-warehouseModelo/ Modelo Fisico Create do data warehouse.sql*</sub>
+<sub>*Data-warehouseModelo/Modelo Fisico Create do data warehouse.sql*</sub>
 
 ## Processo de ETL:
 Para a criação do ETL foi dividido o processo em pacotes, contendo em cada pacote uma tabela para um melhor entendimento. Assim, para
@@ -76,11 +76,16 @@ Services (SSAS).
 <sub>*BI-Concessionaria-de-carros/Analise_Multidimensional_Concessionaria/*</sub>
 
 ## Desenvolvimento dos Dashboards:
-Após ter passado pela obtenção de dados, tratamento, carregamento a fim de tornar os dados limpos e coerentes, a última etapa do processo BI é a visualização dos dados que possam responder as questões levantadas nas necessidades do negócio.
+Após ter passado pela obtenção de dados, tratamento, carregamento a fim de tornar os dados limpos e coerentes, a última etapa do processo BI é o desenvolvimento do dashboard para a visualização dos dados que possam responder as questões levantadas nas necessidades do negócio.
 
 ## Resultados Obtidos:
 
+* **Desempenho de faturamento pela corporação:** É possível observar que o faturamento da venda de veículos das quatro empresas no período
+entre 2015-2018 foi de 31.697.940,00, tendo um total de 457 veículos vendidos. Ainda revela que nesses mesmo período, a empresa localizada na cidade de Araguaína -TO é a líder de venda, tendo um faturamento de 15.725.000,00 e 215 veículos vendidos. Seguido da Boa Vista - RR com 11.799.710,00 e 170 veículos vendidos, Imperatriz- MA com 2.414.510,00 e 39 veículos vendidos e por último Belém-PA com 1.758.720,00 e 33 veículos vendidos. Foi possível ainda perceber que nesse mesmo período, apenas as empresas de Araguaína -TO e Boa Vista - RR teve um faturamento acima da média. O dashboard também revela como se comporta o faturamento das corporações por uma perspectiva anual e mensal.
 
+* **Desempenho de venda dos veículos:** Apresenta informações sobre o fluxo de venda dos veículos. Os indicadores visuais aqui expostos revelam que o veículo XK do fabricante Jaguar é o modelo mais vendido nos últimos 4 anos, com 95 modelos vendido. Sendo 36 em Araguaína -TO, 51 em Boa Vista - RR, 4 em Imperatriz - MA e 4 em Belém -PA. Em contrapartida, no mesmo período o veículo que teve menos fluxo de saída foi o Zagato do fabricante Aston Martin, Wraith e Phantom do fabricante Rolls Royce, e Arnage do fabricante Bentley com 2 venda cada. Sendo, o Zagato com 1 saída em Araguaína – TO e 1 Imperatriz – MA e Wraith, Phantom e Arnage com 2 saídas de cada em Araguaína -TO. O presente dashboard também possibilita a análise de desempenho das saídas por fabricante de cada veículo. Tendo como líder o fabricante Jaguar com 129 veículos vendido, sendo 61 em Araguaína - TO, 54 em Boa vista - RR, 9 em Belém -PA e 5 em imperatriz -MA. E o fabricante com menos venda foi o TVR com 14 veículos vendidos, sendo 8 em Boa Vista - RR, 3 em Araguaína - TO, 2 em Belém- PA e 1 em Imperatriz - MA.
+
+* **Perfil e preferência dos clientes:** Nesse painel tem a intenção de explorar o perfil e preferência dos clientes. Os indicadores visuais aqui expostos revela que o perfil de cliente que mais concretizar a compra são do gênero masculino com 57.34% com a faixa etária de idade entre 24-31. Sendo o modelo preferido pelo gênero masculino o DB9, com 10.57%, Continental com 10.46% e XK com 9.9%. Em contrapartida, o que se refere ao gênero feminino, a faixa etária é de 26-33 anos e a preferência fica entre os modelos XK com 19.69%, Camargue com 17.74 % e Continental com 12.71%. Na perspectiva por empresa, o dashboard aponta que a empresa situada em Araguaína- TO tem como maior perfil de cliente que finalizam as compras de veículos são o do gênero masculino, com 95.81%, em Boa Vista - RR o do gênero feminino com 91.46%, Imperatriz -MA o gênero feminino com 52.03% e em Belém-PA o gênero masculino com 53.63%.
 
 
 
